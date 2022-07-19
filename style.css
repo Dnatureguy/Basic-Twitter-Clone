@@ -210,3 +210,26 @@ body {
     align-items: center;
     background-color: var(--twitter-background);
 }
+
+.widgets__inputs input {
+    border: none;
+    background-color: var(--twitter-background);
+    outline: none;
+}
+
+.widgets__searchIcon {
+    color: gray;
+}
+
+.widgets__widgetcontainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border: 20px;
+}
+
+.widgets__widgetcontainer h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
